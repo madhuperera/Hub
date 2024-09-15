@@ -16,7 +16,6 @@ A central hub containing links to all my GitHub repositories, organized by categ
 
 ## Security Tools
 - [RubberDucky](https://github.com/madhuperera/RubberDucky) - A repository for security tools and scripts.
-- [powershell-intune-samples](https://github.com/madhuperera/powershell-intune-samples) - PowerShell samples for Intune management.
 
 ## Managed Services
 - [Datto_RMM](https://github.com/madhuperera/Datto_RMM) - Remote Monitoring and Management tools.
