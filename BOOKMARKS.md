@@ -45,6 +45,7 @@ A collection of useful URLs and online tools for various tasks.
 - [URL Decoder](https://www.urldecoder.org/) - Decode URLs that have special characters.
 - [TrendMicro Phish Insight](https://cloud.phishinsight.trendmicro.com/) - TrendMicro Phishing Training.
 - [Browser Spy](https://www.gaijin.at/en/tools/browser-spy) - Browser Spy
+- [Steganography](https://stylesuxx.github.io/steganography/) - Hidden Messages in Photos
 
 ### Regular Expressions
 - [RegExr: Learn, Build, & Test RegEx](https://regexr.com/) - An online tool for building and testing regular expressions.
