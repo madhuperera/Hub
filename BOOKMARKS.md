@@ -39,6 +39,7 @@ A collection of useful URLs and online tools for various tasks.
 - [How Secure Is My Password](https://www.security.org/how-secure-is-my-password/) - Test the strength of a password.
 - [Base64 Encoder](https://www.base64encode.org/) - Encode and decode Base64 strings.
 - [URL Decoder](https://www.urldecoder.org/) - Decode URLs that have special characters.
+- [TrendMicro Phish Insight](https://cloud.phishinsight.trendmicro.com/) - TrendMicro Phishing Training.
 
 ### Regular Expressions
 - [RegExr: Learn, Build, & Test RegEx](https://regexr.com/) - An online tool for building and testing regular expressions.
