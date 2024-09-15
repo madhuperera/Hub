@@ -1,9 +1,12 @@
-# My GitHub Repository Hub
+# Madhu's GitHub Hub
 
-A central hub containing links to all my GitHub repositories, organized by categories.
+Welcome to my GitHub Hub! Here, you'll find a curated list of my projects, tools, and bookmarks that I use regularly.
+
+## Contents
+- [My Repositories](#my-repositories)
+- [Bookmarks](./BOOKMARKS.md)
 
 ## Categories
-
 - [Microsoft 365 and Cloud](#microsoft-365-and-cloud)
 - [Security Tools](#security-tools)
 - [Managed Services](#managed-services)
@@ -21,4 +24,3 @@ A central hub containing links to all my GitHub repositories, organized by categ
 - [Datto_RMM](https://github.com/madhuperera/Datto_RMM) - Remote Monitoring and Management tools.
 - [ConnectWise](https://github.com/madhuperera/ConnectWise) - ConnectWise integrations.
 - [MS_Partner](https://github.com/madhuperera/MS_Partner) - Projects related to Microsoft partnerships.
-
