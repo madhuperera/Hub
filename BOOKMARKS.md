@@ -18,6 +18,7 @@ A collection of useful URLs and online tools for various tasks.
 ### Email Security
 - [Anti-Spam Message Headers](https://docs.microsoft.com/en-nz/office365/SecurityCompliance/anti-spam-message-headers) - Microsoft documentation on anti-spam message headers.
 - [E-Mail Header Analyzer](https://www.gaijin.at/de/tools/e-mail-header-analyzer#result) - Tool to analyze email headers.
+- [Azure Message Header Analyzer](https://mha.azurewebsites.net/) - Azure Message Header Analyzer
 - [Report Unsafe Site](https://www.microsoft.com/en-us/wdsi/support/report-unsafe-site) - Report potentially malicious sites to Microsoft.
 
 ### Incident Response Guides
