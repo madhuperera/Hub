@@ -6,6 +6,8 @@ A collection of useful URLs and online tools for various tasks.
 
 ### URL Scanners
 - [URLScan](https://urlscan.io/) - A sandbox for scanning and analyzing URLs.
+- [URL Info](https://www.gaijin.at/en/tools/website-info) - URL Info
+- [URL Passer](https://www.gaijin.at/en/tools/url-parser) - Decode URL
 - [VirusTotal](https://www.virustotal.com/) - Analyze files and URLs for malware.
 - [MX Toolbox Message Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx) - Analyzes email headers for security insights.
 - [Azure Message Header Analyzer](https://mha.azurewebsites.net/) - Analyzes email headers for Azure.
@@ -42,6 +44,7 @@ A collection of useful URLs and online tools for various tasks.
 - [MD5 Hash Generator](https://passwordsgenerator.net/md5-hash-generator/) - MD5 Hash Generator
 - [URL Decoder](https://www.urldecoder.org/) - Decode URLs that have special characters.
 - [TrendMicro Phish Insight](https://cloud.phishinsight.trendmicro.com/) - TrendMicro Phishing Training.
+- [Browser Spy](https://www.gaijin.at/en/tools/browser-spy) - Browser Spy
 
 ### Regular Expressions
 - [RegExr: Learn, Build, & Test RegEx](https://regexr.com/) - An online tool for building and testing regular expressions.
@@ -49,6 +52,7 @@ A collection of useful URLs and online tools for various tasks.
 ### DNS and Network Tools
 - [MX Toolbox](https://mxtoolbox.com/SuperTool.aspx) - A suite of free DNS tools.
 - [DNS Report](https://intodns.com/) - Detailed DNS report for a domain.
+- [IP to DNS](https://www.gaijin.at/en/tools/dns-lookup) - IP to DNS info
 
 ## Cloud and Microsoft Tools
 
