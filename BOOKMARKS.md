@@ -20,18 +20,6 @@ A collection of useful URLs and online tools for various tasks.
 ### Incident Response Guides
 - [Troubleshooting and Identifying Spoofing Attacks](https://blogs.technet.microsoft.com/eopfieldnotes/2015/12/23/troubleshooting-and-identifying-spoofing-attacks/) - EOP Field Notes on spoofing attacks.
 
-## Microsoft 365 and Cloud
-
-### Azure
-- [Skylines Academy - PowerShell Reference](https://www.skylinesacademy.com/azure-study-resources/) - A collection of PowerShell resources for Azure.
-- [Administrative Units Management (Preview)](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-administrative-units) - Azure AD administrative units management.
-
-### Intune
-- [Intune – Win32 App Deploying BGInfo](https://nhogarth.net/2018/12/14/intune-win32-app-deploying-bginfo/) - A guide for deploying Win32 apps using Intune.
-- [Powers Hell - Great Power Is Great Fun](https://www.powers-hell.com/) - A blog covering various aspects of Intune.
-
-### Office 365
-- [Network Planning and Performance Tuning](https://docs.microsoft.com/en-us/office365/enterprise/network-planning-and-performance) - Guide on network planning and performance tuning for Office 365.
 
 ## Online Tools
 
