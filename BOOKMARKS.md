@@ -38,6 +38,7 @@ A collection of useful URLs and online tools for various tasks.
 - [SOC Prime Platform](https://tdm.socprime.com/) - A platform for cybersecurity threat detection.
 - [How Secure Is My Password](https://www.security.org/how-secure-is-my-password/) - Test the strength of a password.
 - [Base64 Encoder](https://www.base64encode.org/) - Encode and decode Base64 strings.
+- [MD5 Hash Generator](https://passwordsgenerator.net/md5-hash-generator/) - MD5 Hash Generator
 - [URL Decoder](https://www.urldecoder.org/) - Decode URLs that have special characters.
 - [TrendMicro Phish Insight](https://cloud.phishinsight.trendmicro.com/) - TrendMicro Phishing Training.
 
