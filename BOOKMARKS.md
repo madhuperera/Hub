@@ -68,6 +68,7 @@ A collection of useful URLs and online tools for various tasks.
 
 ### Application Packaging
 - [Silent Installer](https://silentinstallhq.com/) - Silent Installer HQ by Jason
+- [PS App Deploy Toolkit Cheat Sheet](https://www.simsenblog.dk/2020/12/07/cheatsheet-for-psappdeploytoolkit/) - Simsen's PowerShell App Deployment Cheat Sheet
 
 ## Status and Outage Monitoring
 - [Azure Status](https://status.azure.com/en-us/status) - Check the health of Azure services.
