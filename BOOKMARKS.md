@@ -66,6 +66,9 @@ A collection of useful URLs and online tools for various tasks.
 - [Microsoft Licensing Guide](https://m365maps.com/) - Detailed information on Microsoft 365 licensing.
 - [Intune Drive Mappings](http://intunedrivemapping.azurewebsites.net/drivemapping) - Drive mapping tool for Microsoft Intune.
 
+### Application Packaging
+- [Silent Installer](https://silentinstallhq.com/) - Silent Installer HQ by Jason
+
 ## Status and Outage Monitoring
 - [Azure Status](https://status.azure.com/en-us/status) - Check the health of Azure services.
 - [Azure Service Health](https://portal.azure.com/#blade/Microsoft_Azure_Health/AzureHealthBrowseBlade/serviceIssues) - Monitor Azure service issues.
