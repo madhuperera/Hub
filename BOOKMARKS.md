@@ -86,6 +86,7 @@ A collection of useful URLs and online tools for various tasks.
 - [Webroot](https://status.webroot.com/) - Webroot status updates.
 
 ## Other Tools
+- [MSP KB](https://docs.themspkb.com/) - MSP Knowledge Base.
 - [Have I Been Pwned](https://haveibeenpwned.com/) - Check if your email or phone has been part of a data breach.
 - [Comodo Web Filtering - Test Pages](https://cwf.comodo.com/test-pages.php) - Test pages for Comodo web filtering.
 - [Website Speed Test](https://tools.pingdom.com/) - Test website performance.
