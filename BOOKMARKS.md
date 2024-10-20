@@ -17,6 +17,7 @@ A collection of useful URLs and online tools for various tasks.
 - [23 Top Cybersecurity Frameworks](https://cyberexperts.com/cybersecurity-frameworks/) - A comprehensive guide to cybersecurity frameworks.
 - [Threat Map - Check Point](https://threatmap.checkpoint.com/) - Live cyber threat map.
 - [Threat Map - Radware](https://livethreatmap.radware.com/) - Live threat map for monitoring global security threats.
+- [EDR Telemetry](https://edr-telemetry.com) - EDR Telemetry
 
 ### Email Security
 - [Anti-Spam Message Headers](https://docs.microsoft.com/en-nz/office365/SecurityCompliance/anti-spam-message-headers) - Microsoft documentation on anti-spam message headers.
