@@ -12,6 +12,7 @@ A collection of useful URLs and online tools for various tasks.
 - [MX Toolbox Message Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx) - Analyzes email headers for security insights.
 - [Azure Message Header Analyzer](https://mha.azurewebsites.net/) - Analyzes email headers for Azure.
 - [DRACOEYE Scanner](https://dracoeye.com/search) - DRACOEYE Scanner.
+- [Ad Blocker Reporting](https://d3ward.github.io/toolz/adblock) - Ad Blocker Test
 
 ### Cybersecurity Frameworks and Information
 - [23 Top Cybersecurity Frameworks](https://cyberexperts.com/cybersecurity-frameworks/) - A comprehensive guide to cybersecurity frameworks.
