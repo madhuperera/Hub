@@ -1,7 +1,8 @@
-# Madhu's GitHub Hub
+# Madhu Perera — GitHub Hub
 
-Welcome to my GitHub Hub! Here, you'll find a curated list of my projects, tools, and bookmarks that I use regularly.
+A navigation index for Madhu Perera's public GitHub repositories and reference bookmarks.
 
 ## Contents
-- [My Repositories](./MYREPOS.md)
+
+- [Public Repositories](./MYREPOS.md)
 - [Bookmarks](./BOOKMARKS.md)
