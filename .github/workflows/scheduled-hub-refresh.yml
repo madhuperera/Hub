@@ -1,0 +1,102 @@
+name: Scheduled Hub Refresh
+
+on:
+  schedule:
+    - cron: "0 20 * * 0" # Weekly, Sunday 20:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: read
+
+jobs:
+  create-and-assign-copilot-task:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Check for existing open Hub refresh issue
+        id: existing
+        env:
+          GH_TOKEN: ${{ secrets.COPILOT_AGENT_PAT }}
+        run: |
+          ISSUE_NUMBER=$(gh issue list \
+            --repo madhuperera/Hub \
+            --state open \
+            --label "copilot-hub-refresh" \
+            --json number \
+            --jq '.[0].number // empty')
+
+          echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
+
+      - name: Create Copilot task issue
+        if: steps.existing.outputs.issue_number == ''
+        id: create_issue
+        env:
+          GH_TOKEN: ${{ secrets.COPILOT_AGENT_PAT }}
+        run: |
+          cat > issue-body.md <<'EOF'
+          Review and refresh the public GitHub Hub documentation.
+
+          Source of truth:
+          - `.github/public-repos.yml`
+
+          Scope:
+          - Update `README.md` as the main landing page.
+          - Update `MYREPOS.md` as the structured public repository catalogue.
+          - Update `BOOKMARKS.md` only if useful.
+          - Only include repositories explicitly listed in `.github/public-repos.yml`.
+
+          Hard rules:
+          - Do not discover repositories from the GitHub account.
+          - Do not list private repositories.
+          - Do not reference client, employer, or private work repositories.
+          - Do not modify workflow files.
+          - Do not add emojis.
+          - Keep wording professional and understated.
+
+          Expected pull request:
+          - Markdown-only changes unless there is a strong reason otherwise.
+          - Clear PR summary explaining what changed.
+          EOF
+
+          ISSUE_URL=$(gh issue create \
+            --repo madhuperera/Hub \
+            --title "Refresh public GitHub Hub documentation" \
+            --body-file issue-body.md \
+            --label "documentation,copilot-hub-refresh")
+
+          ISSUE_NUMBER="${ISSUE_URL##*/}"
+
+          echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
+
+      - name: Use existing issue number
+        if: steps.existing.outputs.issue_number != ''
+        id: use_existing
+        run: |
+          echo "issue_number=${{ steps.existing.outputs.issue_number }}" >> "$GITHUB_OUTPUT"
+
+      - name: Assign issue to Copilot cloud agent
+        env:
+          GH_TOKEN: ${{ secrets.COPILOT_AGENT_PAT }}
+          ISSUE_NUMBER: ${{ steps.create_issue.outputs.issue_number || steps.use_existing.outputs.issue_number }}
+        run: |
+          gh api \
+            --method POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            /repos/madhuperera/Hub/issues/$ISSUE_NUMBER/assignees \
+            --input - <<'EOF'
+          {
+            "assignees": ["copilot-swe-agent[bot]"],
+            "agent_assignment": {
+              "target_repo": "madhuperera/Hub",
+              "base_branch": "main",
+              "custom_instructions": "Update the Hub repository documentation using only `.github/public-repos.yml` as the source of approved repositories. Modify README.md, MYREPOS.md, and BOOKMARKS.md only if needed. Do not discover or list private repositories. Do not modify workflow files. Keep wording professional and understated.",
+              "custom_agent": "",
+              "model": ""
+            }
+          }
+          EOF
