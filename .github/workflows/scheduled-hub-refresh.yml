@@ -17,6 +17,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
+      - name: Ensure required labels exist
+        env:
+          GH_TOKEN: ${{ secrets.COPILOT_AGENT_PAT }}
+        run: |
+          gh label create "documentation" \
+            --repo madhuperera/Hub \
+            --description "Documentation updates" \
+            --color "0E8A16" \
+            --force
+
+          gh label create "copilot-hub-refresh" \
+            --repo madhuperera/Hub \
+            --description "Scheduled Copilot Hub documentation refresh" \
+            --color "5319E7" \
+            --force
+
       - name: Check for existing open Hub refresh issue
         id: existing
         env:
@@ -38,24 +54,45 @@ jobs:
           GH_TOKEN: ${{ secrets.COPILOT_AGENT_PAT }}
         run: |
           cat > issue-body.md <<'EOF'
-          Review and refresh the public GitHub Hub documentation.
+          Refresh the public GitHub Hub documentation.
 
           Source of truth:
-          - `.github/public-repos.yml`
+          - `.github/public-repos.yml` contains the only approved repositories that may be listed.
 
-          Scope:
-          - Update `README.md` as the main landing page.
-          - Update `MYREPOS.md` as the structured public repository catalogue.
-          - Update `BOOKMARKS.md` only if useful.
-          - Only include repositories explicitly listed in `.github/public-repos.yml`.
+          Task:
+          - For each repository listed in `.github/public-repos.yml`, inspect the public repository content where possible.
+          - Review each listed repository's README, repository description, topics, and recent visible activity if available.
+          - Update the Hub front page so it is useful as a public landing page, not just a list of links.
+
+          Files to update:
+          - `README.md`
+          - `MYREPOS.md`
+          - `BOOKMARKS.md` only if useful.
+
+          README.md should include:
+          - A short professional introduction.
+          - A featured repositories section.
+          - A grouped repository catalogue.
+          - A "recently updated" or "active areas" section if useful.
+          - Clear links to the listed repositories.
+          - Short explanations of what each repository is for.
+
+          MYREPOS.md should include:
+          - The full structured catalogue of approved public repositories.
+          - Repository purpose.
+          - Main technology area.
+          - Practical use case.
+          - Link to the repository.
 
           Hard rules:
+          - Only include repositories explicitly listed in `.github/public-repos.yml`.
           - Do not discover repositories from the GitHub account.
           - Do not list private repositories.
           - Do not reference client, employer, or private work repositories.
           - Do not modify workflow files.
           - Do not add emojis.
-          - Keep wording professional and understated.
+          - Keep wording professional, understated, and useful.
+          - Avoid generic filler text.
 
           Expected pull request:
           - Markdown-only changes unless there is a strong reason otherwise.
@@ -94,7 +131,7 @@ jobs:
             "agent_assignment": {
               "target_repo": "madhuperera/Hub",
               "base_branch": "main",
-              "custom_instructions": "Update the Hub repository documentation using only `.github/public-repos.yml` as the source of approved repositories. Modify README.md, MYREPOS.md, and BOOKMARKS.md only if needed. Do not discover or list private repositories. Do not modify workflow files. Keep wording professional and understated.",
+              "custom_instructions": "Use `.github/public-repos.yml` as the only approved repository list. For each listed public repository, inspect available public README content, repository description, topics, and visible activity where possible. Update README.md into a useful public landing page with featured repositories, grouped categories, practical summaries, and links. Update MYREPOS.md as the detailed catalogue. Do not discover or list repositories outside the allowlist. Do not list private repositories. Do not modify workflow files. Keep wording professional and understated.",
               "custom_agent": "",
               "model": ""
             }
