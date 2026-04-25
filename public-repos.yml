@@ -1,0 +1,35 @@
+repos:
+  - name: CA-Automation-01
+    url: https://github.com/madhuperera/CA-Automation-01
+    category: Microsoft Entra / Conditional Access
+    description: Baseline Conditional Access policy deployment and automation for Microsoft Entra ID environments.
+
+  - name: Microsoft_Sentinel
+    url: https://github.com/madhuperera/Microsoft_Sentinel
+    category: Microsoft Sentinel
+    description: Microsoft Sentinel resources, queries, automation, and security operations content.
+
+  - name: Microsoft365
+    url: https://github.com/madhuperera/Microsoft365
+    category: Microsoft 365
+    description: Microsoft 365 administration, security, configuration, and operational guidance.
+
+  - name: MEM
+    url: https://github.com/madhuperera/MEM
+    category: Microsoft Endpoint Manager
+    description: Microsoft Endpoint Manager resources covering device management, configuration, and endpoint administration.
+
+  - name: naming-conventions
+    url: https://github.com/madhuperera/naming-conventions
+    category: Standards / Naming
+    description: Naming convention guidance and standards for Microsoft cloud and security environments.
+
+  - name: Datto_RMM
+    url: https://github.com/madhuperera/Datto_RMM
+    category: Datto RMM
+    description: Datto RMM scripts, automation, and operational resources.
+
+  - name: Intune
+    url: https://github.com/madhuperera/Intune
+    category: Microsoft Intune
+    description: Microsoft Intune scripts, policies, configuration notes, and endpoint management resources.
