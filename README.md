@@ -28,13 +28,13 @@ The repositories indexed here are aligned to real-world infrastructure, security
 ## Focus Areas
 
 - Microsoft 365
-- Microsoft Defender
-- Microsoft Intune
 - Microsoft Sentinel
+- Microsoft Intune
 - Entra ID
 - Conditional Access
 - PowerShell Automation
 - Security Operations
+- Datto RMM
 
 </td>
 </tr>
@@ -63,7 +63,7 @@ Detection rules, Kusto Query Language (KQL) investigation queries, dashboards, a
 
 <a href="https://github.com/madhuperera/CA-Automation-01"><img src="https://github-readme-stats.vercel.app/api/pin/?username=madhuperera&repo=CA-Automation-01&theme=transparent&hide_border=true&title_color=0078D4&text_color=334155&icon_color=50E6FF" alt="CA-Automation-01 repository card" /></a>
 
-Infrastructure-as-Code automation for Microsoft Entra ID Conditional Access policies, using PowerShell and deployment templates.
+Infrastructure-as-Code automation for Microsoft Entra ID Conditional Access policies, using PowerShell and Microsoft Graph with Core and Advanced deployment tiers.
 
 <a href="https://github.com/madhuperera/CA-Automation-01"><strong>Open repository →</strong></a>
 
@@ -97,7 +97,7 @@ Practical naming convention guidance for Azure, Microsoft 365, Intune, Entra ID,
 | Repository | Purpose |
 |---|---|
 | [Microsoft_Sentinel](https://github.com/madhuperera/Microsoft_Sentinel) | Microsoft Sentinel detection rules, KQL queries, dashboards, and watchlists organised by security domain. |
-| [CA-Automation-01](https://github.com/madhuperera/CA-Automation-01) | Conditional Access policy automation for Microsoft Entra ID. |
+| [CA-Automation-01](https://github.com/madhuperera/CA-Automation-01) | Policy-as-code automation for Conditional Access in Microsoft Entra ID, with Core and Advanced deployment tiers using Microsoft Graph. |
 
 </td>
 <td width="50%" valign="top">
@@ -106,8 +106,8 @@ Practical naming convention guidance for Azure, Microsoft 365, Intune, Entra ID,
 
 | Repository | Purpose |
 |---|---|
-| [Intune](https://github.com/madhuperera/Intune) | Microsoft Intune baselines, policies, and configuration scripts. |
-| [MEM](https://github.com/madhuperera/MEM) | Microsoft Endpoint Manager scripts, Win32 app deployment content, and Proactive Remediations. |
+| [Intune](https://github.com/madhuperera/Intune) | Microsoft Intune baselines, policies, and configuration resources for Windows and Apple device management. |
+| [MEM](https://github.com/madhuperera/MEM) | Microsoft Endpoint Manager scripts covering Win32 app deployment, Proactive Remediations, custom compliance policies, and general endpoint tooling. |
 | [Datto_RMM](https://github.com/madhuperera/Datto_RMM) | PowerShell scripts and monitoring components for Datto RMM environments. |
 
 </td>
@@ -119,7 +119,7 @@ Practical naming convention guidance for Azure, Microsoft 365, Intune, Entra ID,
 
 | Repository | Purpose |
 |---|---|
-| [Microsoft365](https://github.com/madhuperera/Microsoft365) | Administration, configuration, and automation scripts for Microsoft 365 services. |
+| [Microsoft365](https://github.com/madhuperera/Microsoft365) | Reporting and administration scripts for Microsoft 365 services, covering Entra ID, Exchange Online, licensing, email security, and incident response. |
 
 </td>
 <td width="50%" valign="top">
