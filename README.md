@@ -28,8 +28,8 @@ The repositories indexed here are aligned to real-world infrastructure, security
 ## Focus Areas
 
 - Microsoft 365
-- Microsoft Sentinel
 - Microsoft Intune
+- Microsoft Sentinel
 - Entra ID
 - Conditional Access
 - PowerShell Automation
