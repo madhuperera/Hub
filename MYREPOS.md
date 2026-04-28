@@ -24,9 +24,16 @@ All repositories listed here are explicitly defined in `.github/public-repos.yml
 ### CA-Automation-01
 
 **Repository:** [CA-Automation-01](https://github.com/madhuperera/CA-Automation-01)
-**Technology area:** Microsoft Entra ID, Conditional Access, PowerShell, ARM
-**Purpose:** Infrastructure-as-Code automation for Entra ID Conditional Access policies, providing a managed baseline deployment.
-**Practical use:** Automate the deployment and management of Conditional Access policies across Entra ID tenants. Useful for maintaining consistent policy baselines at scale.
+**Technology area:** Microsoft Entra ID, Conditional Access, PowerShell, Microsoft Graph
+**Purpose:** Infrastructure-as-Code automation for Entra ID Conditional Access policies, providing a managed baseline deployment using Microsoft Graph.
+**Contents:**
+- Policy definitions stored as code under `data/ca_policies/`, version-controlled and reviewable
+- Core and Advanced deployment tiers to suit both baseline and mature environments
+- Dedicated exclusion group per policy using a consistent naming pattern
+- Break-glass emergency access groups created first and excluded from all policies to reduce lockout risk
+- Dynamic runtime resolution of group and named location IDs to avoid hardcoded tenant-specific values
+
+**Practical use:** Automate the deployment and management of Conditional Access policies across Entra ID tenants using a repeatable, code-driven approach. Supports report-only validation before enforcement. Useful for maintaining consistent policy baselines at scale across Microsoft 365 environments.
 
 ---
 
@@ -36,8 +43,12 @@ All repositories listed here are explicitly defined in `.github/public-repos.yml
 
 **Repository:** [Intune](https://github.com/madhuperera/Intune)
 **Technology area:** Microsoft Intune, PowerShell
-**Purpose:** Microsoft Intune baselines, policies, and configuration scripts.
-**Practical use:** Reference baseline policies and scripts for managing Windows devices through Microsoft Intune.
+**Purpose:** Microsoft Intune baselines, policies, and configuration resources for Windows and Apple device management.
+**Contents:**
+- Windows device configuration baselines and policies
+- Apple device configuration resources
+
+**Practical use:** Reference baseline policies and scripts for managing Windows and Apple devices through Microsoft Intune.
 
 ---
 
@@ -45,12 +56,16 @@ All repositories listed here are explicitly defined in `.github/public-repos.yml
 
 **Repository:** [MEM](https://github.com/madhuperera/MEM)
 **Technology area:** Microsoft Endpoint Manager (Intune), PowerShell
-**Purpose:** Scripts and resources for Microsoft Endpoint Manager covering Win32 application deployment and Proactive Remediations.
+**Purpose:** Scripts and resources for Microsoft Endpoint Manager covering Win32 application deployment, Proactive Remediations, compliance policies, and general endpoint management.
 **Contents:**
 - Win32 app packaging and deployment scripts (EXE deployment, printer installation, file distribution)
-- Proactive Remediation script pairs (Detection + Deployment) for automated endpoint compliance
+- Proactive Remediation script pairs (Detection + Remediation) for automated endpoint compliance
+- Custom compliance policy scripts for enforcing device standards beyond built-in baselines
+- Detection scripts for identifying device configuration state
+- Reusable PowerShell functions for use across endpoint management scripts
+- General-purpose PowerShell scripts for Windows device tasks
 
-**Practical use:** Deploy complex Win32 applications through Intune, or implement Proactive Remediations to detect and fix endpoint configuration drift automatically.
+**Practical use:** Deploy complex Win32 applications through Intune, implement Proactive Remediations to detect and fix endpoint configuration drift automatically, and enforce custom compliance requirements across managed Windows devices.
 
 ---
 
@@ -74,9 +89,18 @@ All repositories listed here are explicitly defined in `.github/public-repos.yml
 ### Microsoft365
 
 **Repository:** [Microsoft365](https://github.com/madhuperera/Microsoft365)
-**Technology area:** Microsoft 365, PowerShell
-**Purpose:** Administration, configuration, and automation scripts for Microsoft 365 services.
-**Practical use:** Reference scripts for managing Microsoft 365 tenants, including service configuration and operational tasks.
+**Technology area:** Microsoft 365, Entra ID, Exchange Online, PowerShell, Microsoft Graph
+**Purpose:** Administration, reporting, and security tooling for Microsoft 365 tenants. Covers identity, Exchange Online, licensing, email security, and incident response.
+**Contents:**
+- Entra ID reporting: member and guest users, devices, application registrations, administrator role memberships, authentication methods, MFA status, inactive accounts
+- Exchange Online reporting: mailbox quota, calendar permissions, unused mailboxes
+- Exchange Online administration: bulk calendar permission management, transport rule assets, anti-malware policy configuration
+- Licensing reporting: Microsoft 365 plan and SKU seat counts
+- DNS and email security reporting: DKIM, DMARC, and SPF record verification for accepted domains
+- Intune reporting: managed application inventory
+- Incident response scripts: audit log analysis by IP address, interactive sign-in investigation
+
+**Practical use:** Use the reporting scripts to produce tenant health and compliance reports for Entra ID, Exchange Online, and Microsoft 365 licensing. Use the incident response scripts during security investigations to query audit logs and sign-in data. Use the Exchange Online scripts to manage calendar permissions and validate email security posture.
 
 ---
 
