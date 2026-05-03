@@ -13,6 +13,7 @@ All repositories listed here are explicitly defined in `.github/public-repos.yml
 **Purpose:** Security detection and investigation assets for Microsoft Sentinel, organized by security threat domain.
 **Contents:**
 - Scheduled detection rules as ARM templates, covering identity security and related domains
+- Service account monitoring detection rules
 - Reusable KQL queries for incident investigation, organized by domain and data source
 - Sentinel workbooks for production dashboards and development visualizations
 - Watchlists and reference data, including emergency breakglass account monitoring

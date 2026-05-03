@@ -144,7 +144,7 @@ Practical naming convention guidance for Azure, Microsoft 365, Intune, Entra ID,
 
 ### Microsoft Sentinel
 
-Recent focus includes Sentinel TAP rules, investigation queries, and operational security content.
+Recent focus includes service account monitoring detection rules, TAP detection rules, and a repository restructure by security domain.
 
 <strong>Recent activity:</strong> April 2026
 
@@ -153,18 +153,18 @@ Recent focus includes Sentinel TAP rules, investigation queries, and operational
 
 ### CA-Automation-01
 
-Recent focus includes Conditional Access policy updates, documentation automation, and repository structure improvements.
+Recent focus includes Conditional Access policy baseline refinements and documentation accuracy improvements across policy README files.
 
 <strong>Recent activity:</strong> April 2026
 
 </td>
 <td width="33%" valign="top">
 
-### Naming Conventions
+### Microsoft 365
 
-Recent focus includes Azure subscription naming updates and Microsoft cloud resource naming structure.
+Recent focus includes domain reporting scripts and XDR reporting additions for Microsoft 365 tenant administration.
 
-<strong>Recent activity:</strong> March 2026
+<strong>Recent activity:</strong> April 2026
 
 </td>
 </tr>
