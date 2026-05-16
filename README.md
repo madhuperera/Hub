@@ -50,7 +50,11 @@ The repositories indexed here are aligned to real-world infrastructure, security
 
 ### Microsoft Sentinel
 
-<a href="https://github.com/madhuperera/Microsoft_Sentinel"><img src="https://github-readme-stats.vercel.app/api/pin/?username=madhuperera&repo=Microsoft_Sentinel&theme=transparent&hide_border=true&title_color=0078D4&text_color=334155&icon_color=0078D4" alt="Microsoft Sentinel repository card" /></a>
+<p>
+  <a href="https://github.com/madhuperera/Microsoft_Sentinel"><img src="https://img.shields.io/github/stars/madhuperera/Microsoft_Sentinel?style=flat-square&logo=github&color=0078D4&labelColor=0f172a" alt="Stars" /></a>
+  <a href="https://github.com/madhuperera/Microsoft_Sentinel/commits"><img src="https://img.shields.io/github/last-commit/madhuperera/Microsoft_Sentinel?style=flat-square&logo=git&color=50E6FF&labelColor=0f172a" alt="Last commit" /></a>
+  <a href="https://github.com/madhuperera/Microsoft_Sentinel"><img src="https://img.shields.io/github/languages/top/madhuperera/Microsoft_Sentinel?style=flat-square&color=2B88D8&labelColor=0f172a" alt="Top language" /></a>
+</p>
 
 Detection rules, Kusto Query Language (KQL) investigation queries, dashboards, and watchlists for Microsoft Sentinel, organised by security threat domain.
 
@@ -61,7 +65,11 @@ Detection rules, Kusto Query Language (KQL) investigation queries, dashboards, a
 
 ### CA-Automation-01
 
-<a href="https://github.com/madhuperera/CA-Automation-01"><img src="https://github-readme-stats.vercel.app/api/pin/?username=madhuperera&repo=CA-Automation-01&theme=transparent&hide_border=true&title_color=0078D4&text_color=334155&icon_color=50E6FF" alt="CA-Automation-01 repository card" /></a>
+<p>
+  <a href="https://github.com/madhuperera/CA-Automation-01"><img src="https://img.shields.io/github/stars/madhuperera/CA-Automation-01?style=flat-square&logo=github&color=0078D4&labelColor=0f172a" alt="Stars" /></a>
+  <a href="https://github.com/madhuperera/CA-Automation-01/commits"><img src="https://img.shields.io/github/last-commit/madhuperera/CA-Automation-01?style=flat-square&logo=git&color=50E6FF&labelColor=0f172a" alt="Last commit" /></a>
+  <a href="https://github.com/madhuperera/CA-Automation-01"><img src="https://img.shields.io/github/languages/top/madhuperera/CA-Automation-01?style=flat-square&color=2B88D8&labelColor=0f172a" alt="Top language" /></a>
+</p>
 
 Infrastructure-as-Code automation for Microsoft Entra ID Conditional Access policies, using PowerShell and Microsoft Graph with Core and Advanced deployment tiers.
 
@@ -72,7 +80,11 @@ Infrastructure-as-Code automation for Microsoft Entra ID Conditional Access poli
 
 ### Naming Conventions
 
-<a href="https://github.com/madhuperera/naming-conventions"><img src="https://github-readme-stats.vercel.app/api/pin/?username=madhuperera&repo=naming-conventions&theme=transparent&hide_border=true&title_color=0078D4&text_color=334155&icon_color=7C3AED" alt="naming-conventions repository card" /></a>
+<p>
+  <a href="https://github.com/madhuperera/naming-conventions"><img src="https://img.shields.io/github/stars/madhuperera/naming-conventions?style=flat-square&logo=github&color=0078D4&labelColor=0f172a" alt="Stars" /></a>
+  <a href="https://github.com/madhuperera/naming-conventions/commits"><img src="https://img.shields.io/github/last-commit/madhuperera/naming-conventions?style=flat-square&logo=git&color=7C3AED&labelColor=0f172a" alt="Last commit" /></a>
+  <a href="https://github.com/madhuperera/naming-conventions"><img src="https://img.shields.io/github/languages/top/madhuperera/naming-conventions?style=flat-square&color=2B88D8&labelColor=0f172a" alt="Top language" /></a>
+</p>
 
 Practical naming convention guidance for Azure, Microsoft 365, Intune, Entra ID, Defender XDR, and related cloud resources.
 
