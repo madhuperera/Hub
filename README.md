@@ -1,255 +1,59 @@
-<div align="center">
+# Madhu Perera GitHub Hub
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:0078D4,45:2B88D8,100:50E6FF&text=Madhu%20Perera%20GitHub%20Hub&fontColor=ffffff&fontSize=34&fontAlignY=35&desc=Microsoft%20365%20%7C%20Defender%20%7C%20Intune%20%7C%20Sentinel%20%7C%20Automation&descAlignY=58&descSize=15" alt="Madhu Perera GitHub Hub banner" />
+This repository is the public landing page for Madhu Perera's approved public GitHub repositories.
 
-<br />
+It is designed to help readers quickly find practical scripts, operational guidance, and reference material across Microsoft security, identity, endpoint management, and automation.
 
-<a href="./MYREPOS.md"><img src="https://img.shields.io/badge/Repository%20Catalogue-View%20Index-0078D4?style=for-the-badge" alt="Repository Catalogue" /></a>
-<a href="./BOOKMARKS.md"><img src="https://img.shields.io/badge/Reference%20Bookmarks-Open-50E6FF?style=for-the-badge" alt="Reference Bookmarks" /></a>
-<a href="https://github.com/madhuperera"><img src="https://img.shields.io/badge/GitHub-madhuperera-24292F?style=for-the-badge&logo=github" alt="GitHub Profile" /></a>
+## Featured repositories
 
-</div>
+### [CA-Automation-01](https://github.com/madhuperera/CA-Automation-01)
+Conditional Access policy automation for Microsoft Entra ID using PowerShell and Microsoft Graph, with policy-as-code deployment patterns.
 
----
+### [Microsoft_Sentinel](https://github.com/madhuperera/Microsoft_Sentinel)
+Microsoft Sentinel detection rules, investigation queries, watchlists, and workbook resources organized by security domain.
 
-<table>
-<tr>
-<td width="65%" valign="top">
+### [Microsoft365](https://github.com/madhuperera/Microsoft365)
+Microsoft 365 administration and security tooling for reporting, Exchange operations, and incident response workflows.
 
-## Purpose
-
-This repository acts as a structured hub for Madhu Perera's public GitHub repositories, with a focus on practical Microsoft cloud security, endpoint management, Microsoft 365 administration, and operational automation.
-
-The repositories indexed here are aligned to real-world infrastructure, security operations, tenant hardening, and consulting delivery work.
-
-</td>
-<td width="35%" valign="top">
-
-## Focus Areas
-
-- Microsoft 365
-- Microsoft Intune
-- Microsoft Sentinel
-- Entra ID
-- Conditional Access
-- PowerShell Automation
-- Security Operations
-- Datto RMM
-
-</td>
-</tr>
-</table>
-
----
-
-## Featured Repositories
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### Microsoft Sentinel
-
-<p>
-  <a href="https://github.com/madhuperera/Microsoft_Sentinel"><img src="https://img.shields.io/github/stars/madhuperera/Microsoft_Sentinel?style=flat-square&logo=github&color=0078D4&labelColor=0f172a" alt="Stars" /></a>
-  <a href="https://github.com/madhuperera/Microsoft_Sentinel/commits"><img src="https://img.shields.io/github/last-commit/madhuperera/Microsoft_Sentinel?style=flat-square&logo=git&color=50E6FF&labelColor=0f172a" alt="Last commit" /></a>
-  <a href="https://github.com/madhuperera/Microsoft_Sentinel"><img src="https://img.shields.io/github/languages/top/madhuperera/Microsoft_Sentinel?style=flat-square&color=2B88D8&labelColor=0f172a" alt="Top language" /></a>
-</p>
-
-Detection rules, Kusto Query Language (KQL) investigation queries, dashboards, and watchlists for Microsoft Sentinel, organised by security threat domain.
-
-<a href="https://github.com/madhuperera/Microsoft_Sentinel"><strong>Open repository →</strong></a>
-
-</td>
-<td width="33%" valign="top">
-
-### CA-Automation-01
-
-<p>
-  <a href="https://github.com/madhuperera/CA-Automation-01"><img src="https://img.shields.io/github/stars/madhuperera/CA-Automation-01?style=flat-square&logo=github&color=0078D4&labelColor=0f172a" alt="Stars" /></a>
-  <a href="https://github.com/madhuperera/CA-Automation-01/commits"><img src="https://img.shields.io/github/last-commit/madhuperera/CA-Automation-01?style=flat-square&logo=git&color=50E6FF&labelColor=0f172a" alt="Last commit" /></a>
-  <a href="https://github.com/madhuperera/CA-Automation-01"><img src="https://img.shields.io/github/languages/top/madhuperera/CA-Automation-01?style=flat-square&color=2B88D8&labelColor=0f172a" alt="Top language" /></a>
-</p>
-
-Infrastructure-as-Code automation for Microsoft Entra ID Conditional Access policies, using PowerShell and Microsoft Graph with Core and Advanced deployment tiers.
-
-<a href="https://github.com/madhuperera/CA-Automation-01"><strong>Open repository →</strong></a>
-
-</td>
-<td width="33%" valign="top">
-
-### Naming Conventions
-
-<p>
-  <a href="https://github.com/madhuperera/naming-conventions"><img src="https://img.shields.io/github/stars/madhuperera/naming-conventions?style=flat-square&logo=github&color=0078D4&labelColor=0f172a" alt="Stars" /></a>
-  <a href="https://github.com/madhuperera/naming-conventions/commits"><img src="https://img.shields.io/github/last-commit/madhuperera/naming-conventions?style=flat-square&logo=git&color=7C3AED&labelColor=0f172a" alt="Last commit" /></a>
-  <a href="https://github.com/madhuperera/naming-conventions"><img src="https://img.shields.io/github/languages/top/madhuperera/naming-conventions?style=flat-square&color=2B88D8&labelColor=0f172a" alt="Top language" /></a>
-</p>
-
-Practical naming convention guidance for Azure, Microsoft 365, Intune, Entra ID, Defender XDR, and related cloud resources.
-
-<a href="https://github.com/madhuperera/naming-conventions"><strong>Open repository →</strong></a>
-
-</td>
-</tr>
-</table>
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:0078D4,50:50E6FF,100:7C3AED" alt="section divider" />
-
-## Repository Catalogue
-
-<table>
-<tr>
-<td width="50%" valign="top">
+## Repository catalogue (grouped)
 
 ### Security Operations
 
-| Repository | Purpose |
+| Repository | What it is for |
 |---|---|
-| [Microsoft_Sentinel](https://github.com/madhuperera/Microsoft_Sentinel) | Microsoft Sentinel detection rules, KQL queries, dashboards, and watchlists organised by security domain. |
-| [CA-Automation-01](https://github.com/madhuperera/CA-Automation-01) | Policy-as-code automation for Conditional Access in Microsoft Entra ID, with Core and Advanced deployment tiers using Microsoft Graph. |
-
-</td>
-<td width="50%" valign="top">
+| [Microsoft_Sentinel](https://github.com/madhuperera/Microsoft_Sentinel) | Detection and investigation content for Microsoft Sentinel, including KQL and dashboard assets. |
+| [CA-Automation-01](https://github.com/madhuperera/CA-Automation-01) | Repeatable Entra ID Conditional Access deployment and baseline automation. |
 
 ### Endpoint and Device Management
 
-| Repository | Purpose |
+| Repository | What it is for |
 |---|---|
-| [Intune](https://github.com/madhuperera/Intune) | Microsoft Intune baselines, policies, and configuration resources for Windows and Apple device management. |
-| [MEM](https://github.com/madhuperera/MEM) | Microsoft Endpoint Manager scripts covering Win32 app deployment, Proactive Remediations, custom compliance policies, and general endpoint tooling. |
-| [Datto_RMM](https://github.com/madhuperera/Datto_RMM) | PowerShell scripts and monitoring components for Datto RMM environments. |
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+| [Intune](https://github.com/madhuperera/Intune) | Microsoft Intune baseline and policy resources for endpoint administration. |
+| [MEM](https://github.com/madhuperera/MEM) | Endpoint Manager scripts for Win32 apps, proactive remediations, compliance, and device operations. |
+| [Datto_RMM](https://github.com/madhuperera/Datto_RMM) | Datto RMM script and monitoring components for managed service operations. |
 
 ### Microsoft 365
 
-| Repository | Purpose |
+| Repository | What it is for |
 |---|---|
-| [Microsoft365](https://github.com/madhuperera/Microsoft365) | Reporting and administration scripts for Microsoft 365 services, covering Entra ID, Exchange Online, licensing, email security, and incident response. |
-
-</td>
-<td width="50%" valign="top">
+| [Microsoft365](https://github.com/madhuperera/Microsoft365) | Tenant reporting, configuration support, and security-oriented administration scripts. |
 
 ### Standards and Reference
 
-| Repository | Purpose |
+| Repository | What it is for |
 |---|---|
-| [naming-conventions](https://github.com/madhuperera/naming-conventions) | Naming convention guidance for Microsoft cloud resources across Azure, Intune, Entra ID, Defender XDR, and more. |
+| [naming-conventions](https://github.com/madhuperera/naming-conventions) | Naming standards for Microsoft cloud and security platforms across multiple workloads. |
 
-</td>
-</tr>
-</table>
+## Recently updated active areas
 
----
+The following areas show the most recent visible public activity (based on latest repository updates):
 
-## Active Areas
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### Microsoft Sentinel
-
-Recent focus includes service account monitoring detection rules, TAP detection rules, and a repository restructure by security domain.
-
-<strong>Recent activity:</strong> April 2026
-
-</td>
-<td width="33%" valign="top">
-
-### CA-Automation-01
-
-Recent focus includes Conditional Access policy baseline refinements and documentation accuracy improvements across policy README files.
-
-<strong>Recent activity:</strong> April 2026
-
-</td>
-<td width="33%" valign="top">
-
-### Microsoft 365
-
-Recent focus includes domain reporting scripts and XDR reporting additions for Microsoft 365 tenant administration.
-
-<strong>Recent activity:</strong> April 2026
-
-</td>
-</tr>
-</table>
-
----
-
-## How This Hub Is Intended To Be Used
-
-<table>
-<tr>
-<td width="25%" valign="top">
-
-### Find
-
-Use this hub to quickly locate repositories by technology area or operational purpose.
-
-</td>
-<td width="25%" valign="top">
-
-### Review
-
-Use the featured repositories to review current work across Sentinel, Conditional Access, and naming standards.
-
-</td>
-<td width="25%" valign="top">
-
-### Reference
-
-Use the catalogue and bookmark files as supporting reference indexes.
-
-</td>
-<td width="25%" valign="top">
-
-### Extend
-
-Add new repositories as public tooling, scripts, or documentation mature enough to be shared.
-
-</td>
-</tr>
-</table>
-
----
+- **Conditional Access automation** — [CA-Automation-01](https://github.com/madhuperera/CA-Automation-01) (updated May 2026)
+- **Microsoft 365 administration and reporting** — [Microsoft365](https://github.com/madhuperera/Microsoft365) (updated May 2026)
+- **Sentinel detections and investigations** — [Microsoft_Sentinel](https://github.com/madhuperera/Microsoft_Sentinel) (updated April 2026)
+- **Endpoint management automation** — [MEM](https://github.com/madhuperera/MEM) (updated April 2026)
 
 ## Navigation
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Repository Catalogue
-
-The full repository catalogue provides the broader index of public repositories and supporting descriptions.
-
-<a href="./MYREPOS.md"><strong>Open MYREPOS.md →</strong></a>
-
-</td>
-<td width="50%" valign="top">
-
-### Reference Bookmarks
-
-The reference bookmarks file provides supporting links and technical references used across Microsoft cloud, security, and automation work.
-
-<a href="./BOOKMARKS.md"><strong>Open BOOKMARKS.md →</strong></a>
-
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:7C3AED,50:0078D4,100:50E6FF" alt="footer wave" />
-
-</div>
+- Full structured catalogue: [MYREPOS.md](./MYREPOS.md)
+- Supporting reference links: [BOOKMARKS.md](./BOOKMARKS.md)
