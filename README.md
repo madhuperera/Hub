@@ -7,13 +7,13 @@ It covers Microsoft security operations, identity and access management, endpoin
 ## Featured repositories
 
 ### [CA-Automation-01](https://github.com/madhuperera/CA-Automation-01)
-Conditional Access policy automation for Microsoft Entra ID using PowerShell and Microsoft Graph. Supports policy-as-code deployment with report-only validation before enforcement, making it suitable for repeatable, controlled baseline rollouts.
+Conditional Access policy automation for Microsoft Entra ID using PowerShell and Microsoft Graph. Deploys Core and Advanced policy tiers using policy-as-code, with report-only validation before enforcement, per-policy exclusion groups, and break-glass account protection. Configurations are portable across tenants without hardcoded object identifiers.
 
 ### [Microsoft_Sentinel](https://github.com/madhuperera/Microsoft_Sentinel)
-Microsoft Sentinel assets organized by threat domain: scheduled detection rules (ARM templates), reusable investigation queries (KQL), watchlists, and workbooks for SOC visibility. Covers identity security, email, devices, and related domains.
+Microsoft Sentinel assets organized by threat domain: scheduled detection rules (ARM templates), reusable investigation queries (KQL), watchlists, and workbooks for SOC visibility. Current content includes 6 detection rules, 32 investigation queries, 1 watchlist, and 8 workbooks. Covers identity security, email, devices, service accounts, and related domains.
 
 ### [Microsoft365](https://github.com/madhuperera/Microsoft365)
-PowerShell scripts and supporting assets for Microsoft 365 tenant administration, security reporting, Exchange Online operations, and incident response. Intended for administrators and security practitioners.
+PowerShell scripts and supporting assets for Microsoft 365 tenant administration, security reporting, Exchange Online operations, and incident response. Covers Entra ID, Exchange Online, Intune, licensing, DNS and email security records, and Microsoft Teams. Outputs are formatted as CSV or HTML.
 
 ## Repository catalogue (grouped)
 
@@ -48,9 +48,9 @@ PowerShell scripts and supporting assets for Microsoft 365 tenant administration
 
 The following areas show the most recent visible public activity (based on latest repository updates):
 
-- **Conditional Access automation** — [CA-Automation-01](https://github.com/madhuperera/CA-Automation-01) (updated May 2026)
-- **Microsoft 365 administration and reporting** — [Microsoft365](https://github.com/madhuperera/Microsoft365) (updated May 2026)
-- **Sentinel detections and investigations** — [Microsoft_Sentinel](https://github.com/madhuperera/Microsoft_Sentinel) (updated April 2026)
+- **Conditional Access automation** — [CA-Automation-01](https://github.com/madhuperera/CA-Automation-01) (updated May 2026 — trusted location exclusion updates for device registration and Intune enrolment)
+- **Microsoft 365 administration and reporting** — [Microsoft365](https://github.com/madhuperera/Microsoft365) (updated May 2026 — MFA report reading guide added)
+- **Sentinel detections and investigations** — [Microsoft_Sentinel](https://github.com/madhuperera/Microsoft_Sentinel) (updated April 2026 — service account monitoring scripts added)
 - **Endpoint management automation** — [MEM](https://github.com/madhuperera/MEM) (updated April 2026)
 
 ## Navigation

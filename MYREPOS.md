@@ -11,7 +11,7 @@ No private, hidden, client, or employer repositories are included.
 - **Repository:** https://github.com/madhuperera/Microsoft_Sentinel
 - **Purpose:** Security detection and investigation assets for Microsoft Sentinel, organized by threat domain.
 - **Main technology area:** Microsoft Sentinel, KQL, ARM templates, PowerShell
-- **Practical use case:** Deploy scheduled detection rules (ARM templates), run incident investigation queries (KQL), maintain watchlists, and use workbooks for SOC visibility across identity, email, device, and billing security domains.
+- **Practical use case:** Deploy scheduled detection rules (ARM templates), run incident investigation queries (KQL), maintain watchlists, and use workbooks for SOC visibility. Current content includes 6 detection rules, 32 investigation queries, 1 watchlist, and 8 workbooks (production and development). Covers identity security, email, devices, service accounts, and billing domains.
 - **Recent visible activity:** April 2026
 
 ### CA-Automation-01
@@ -19,7 +19,7 @@ No private, hidden, client, or employer repositories are included.
 - **Repository:** https://github.com/madhuperera/CA-Automation-01
 - **Purpose:** Automate Conditional Access policy deployment for Microsoft Entra ID using policy-as-code patterns with Microsoft Graph.
 - **Main technology area:** Microsoft Entra ID, Conditional Access, Microsoft Graph, PowerShell
-- **Practical use case:** Roll out and maintain repeatable Conditional Access baselines with report-only validation before enforcement. Reduces manual configuration drift across tenants.
+- **Practical use case:** Roll out and maintain repeatable Conditional Access baselines using Core and Advanced deployment tiers. Report-only mode validates policies before enforcement. Each policy receives a dedicated exclusion group and break-glass accounts are protected before policies are deployed. Object IDs are resolved at runtime, making configurations portable across tenants without modification.
 - **Recent visible activity:** May 2026
 
 ## Endpoint and Device Management
@@ -54,8 +54,8 @@ No private, hidden, client, or employer repositories are included.
 
 - **Repository:** https://github.com/madhuperera/Microsoft365
 - **Purpose:** Microsoft 365 administration and security tooling for reporting, Exchange Online operations, and incident response.
-- **Main technology area:** Microsoft 365, Entra ID, Exchange Online, Microsoft Graph, PowerShell
-- **Practical use case:** Generate tenant health and security reports, support operational administration tasks, manage Exchange Online settings, and run investigation scripts during security incidents.
+- **Main technology area:** Microsoft 365, Entra ID, Exchange Online, Microsoft Intune, Microsoft Teams, Microsoft Graph, PowerShell
+- **Practical use case:** Generate reports across Entra ID, Exchange Online, Intune, licensing, DNS and email security records, and Microsoft Teams. Manage Exchange Online calendar permissions and transport rules. Run investigation scripts during security incidents. Reports are formatted as CSV or HTML. Includes an MFA authentication report with reading guide.
 - **Recent visible activity:** May 2026
 
 ## Standards and Reference
