@@ -48,8 +48,8 @@ PowerShell scripts and supporting assets for Microsoft 365 tenant administration
 
 The following areas show the most recent visible public activity (based on latest repository updates):
 
-- **Conditional Access automation** — [CA-Automation-01](https://github.com/madhuperera/CA-Automation-01) (updated May 2026 — trusted location exclusion updates for device registration and Intune enrolment)
-- **Microsoft 365 administration and reporting** — [Microsoft365](https://github.com/madhuperera/Microsoft365) (updated May 2026 — MFA report reading guide added)
+- **Conditional Access automation** — [CA-Automation-01](https://github.com/madhuperera/CA-Automation-01) (updated June 2026 — documentation corrections to CA209 and CA302 policy configurations)
+- **Microsoft 365 administration and reporting** — [Microsoft365](https://github.com/madhuperera/Microsoft365) (updated June 2026 — new Intune portal reporting added)
 - **Sentinel detections and investigations** — [Microsoft_Sentinel](https://github.com/madhuperera/Microsoft_Sentinel) (updated April 2026 — service account monitoring scripts added)
 - **Endpoint management automation** — [MEM](https://github.com/madhuperera/MEM) (updated April 2026)
 
