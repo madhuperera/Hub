@@ -20,7 +20,7 @@ No private, hidden, client, or employer repositories are included.
 - **Purpose:** Automate Conditional Access policy deployment for Microsoft Entra ID using policy-as-code patterns with Microsoft Graph.
 - **Main technology area:** Microsoft Entra ID, Conditional Access, Microsoft Graph, PowerShell
 - **Practical use case:** Roll out and maintain repeatable Conditional Access baselines using Core and Advanced deployment tiers. Report-only mode validates policies before enforcement. Each policy receives a dedicated exclusion group and break-glass accounts are protected before policies are deployed. Object IDs are resolved at runtime, making configurations portable across tenants without modification.
-- **Recent visible activity:** May 2026
+- **Recent visible activity:** June 2026
 
 ## Endpoint and Device Management
 
@@ -29,7 +29,7 @@ No private, hidden, client, or employer repositories are included.
 - **Repository:** https://github.com/madhuperera/Intune
 - **Purpose:** Baseline configurations and policies for Microsoft Intune device management.
 - **Main technology area:** Microsoft Intune
-- **Practical use case:** Apply Intune baseline settings and policies as a starting point for endpoint standardization, including security configurations such as Secure Boot certificate policies.
+- **Practical use case:** Apply Intune baseline settings and policies as a starting point for endpoint standardization across Windows and Apple (macOS and iOS) devices, including security configurations such as Secure Boot certificate policies, delivery optimization, and browser extension management.
 - **Recent visible activity:** March 2026
 
 ### MEM
@@ -56,7 +56,7 @@ No private, hidden, client, or employer repositories are included.
 - **Purpose:** Microsoft 365 administration and security tooling for reporting, Exchange Online operations, and incident response.
 - **Main technology area:** Microsoft 365, Entra ID, Exchange Online, Microsoft Intune, Microsoft Teams, Microsoft Graph, PowerShell
 - **Practical use case:** Generate reports across Entra ID, Exchange Online, Intune, licensing, DNS and email security records, and Microsoft Teams. Manage Exchange Online calendar permissions and transport rules. Run investigation scripts during security incidents. Reports are formatted as CSV or HTML. Includes an MFA authentication report with reading guide.
-- **Recent visible activity:** May 2026
+- **Recent visible activity:** June 2026
 
 ## Standards and Reference
 
